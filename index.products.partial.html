@@ -1,68 +1,84 @@
-<section id="products" class="products container">
-    <h2 class="products__title">Products</h2>
-    <div class="products__list">
-        <article class="products__item">
-            <img class="products__image" src="img/baby-yoda.svg" alt="Baby Yoda">
-            <h3 class="products__name">Baby Yoda</h3>
-            <p class="products__description">Lorem ipsum <a href="#">dolor</a> sit amet consectetur, adipisicing elit.
-                Porro fuga autem possimus eveniet facere, non minus magnam obcaecati, tenetur recusandae, corporis itaque
-                suscipit. Vero illo nulla asperiores laudantium tempore porro!
-            </p>
-            <div class="products__actions">
-                <button class="products__button products__button--info button button-card">
-                    Info
-                </button>
-                <button class="products__button products__button--buy button button-card">
-                    Buy
-                </button>
+<section id="products" class="products container py-4">
+    <h2 class="products__title mb-4">Products</h2>
+    <div class="products__list row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+        <article class="products__item col">
+            <div class="card h-100">
+                <img class="products__image card-img-top p-3" src="img/baby-yoda.svg" alt="Baby Yoda" />
+                <div class="card-body d-flex flex-column">
+                    <h3 class="products__name card-title h5">Baby Yoda</h3>
+                    <p class="products__description card-text">Lorem ipsum <a href="#">dolor</a> sit amet consectetur, adipisicing elit.
+                        Porro fuga autem possimus eveniet facere, non minus magnam obcaecati, tenetur recusandae, corporis itaque
+                        suscipit. Vero illo nulla asperiores laudantium tempore porro!
+                    </p>
+                    <div class="products__actions mt-auto d-flex gap-2">
+                        <button class="products__button products__button--info button button-card btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#product-info-baby-yoda-modal">
+                            Info
+                        </button>
+                        <button class="products__button products__button--buy button button-card btn btn-primary">
+                            Buy
+                        </button>
+                    </div>
+                </div>
             </div>
         </article>
-        <article class="products__item">
-            <img class="products__image" src="img/banana.svg" alt="Banana" />
-            <h3 class="products__name">Banana</h3>
-            <p class="products__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fuga autem
-                possimus eveniet facere, non minus magnam obcaecati, tenetur recusandae, corporis itaque suscipit. Vero
-                illo nulla asperiores laudantium tempore porro!
-            </p>
-            <div class="products__actions">
-                <button class="products__button products__button--info button button-card">
-                    Info
-                </button>
-                <button class="products__button products__button--buy button button-card">
-                    Buy
-                </button>
+        <article class="products__item col">
+            <div class="card h-100">
+                <img class="products__image card-img-top p-3" src="img/banana.svg" alt="Banana" />
+                <div class="card-body d-flex flex-column">
+                    <h3 class="products__name card-title h5">Banana</h3>
+                    <p class="products__description card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fuga autem
+                        possimus eveniet facere, non minus magnam obcaecati, tenetur recusandae, corporis itaque suscipit. Vero
+                        illo nulla asperiores laudantium tempore porro!
+                    </p>
+                    <div class="products__actions mt-auto d-flex gap-2">
+                        <button class="products__button products__button--info button button-card btn btn-outline-primary">
+                            Info
+                        </button>
+                        <button class="products__button products__button--buy button button-card btn btn-primary">
+                            Buy
+                        </button>
+                    </div>
+                </div>
             </div>
         </article>
-        <article class="products__item">
-            <img class="products__image" src="img/girl.svg" alt="Girl" />
-            <h3 class="products__name">Girl</h3>
-            <p class="products__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fuga autem
-                possimus eveniet facere, non minus magnam obcaecati, tenetur recusandae, corporis itaque suscipit. Вero
-                illo nulla asperiores laudantium tempore porro!
-            </p>
-            <div class="products__actions">
-                <button class="products__button products__button--info button button-card">
-                    Info
-                </button>
-                <button class="products__button products__button--buy button button-card">
-                    Buy
-                </button>
+        <article class="products__item col">
+            <div class="card h-100">
+                <img class="products__image card-img-top p-3" src="img/girl.svg" alt="Girl" />
+                <div class="card-body d-flex flex-column">
+                    <h3 class="products__name card-title h5">Girl</h3>
+                    <p class="products__description card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fuga autem
+                        possimus eveniet facere, non minus magnam obcaecati, tenetur recusandae, corporis itaque suscipit. Vero
+                        illo nulla asperiores laudantium tempore porro!
+                    </p>
+                    <div class="products__actions mt-auto d-flex gap-2">
+                        <button class="products__button products__button--info button button-card btn btn-outline-primary">
+                            Info
+                        </button>
+                        <button class="products__button products__button--buy button button-card btn btn-primary">
+                            Buy
+                        </button>
+                    </div>
+                </div>
             </div>
         </article>
-        <article class="products__item">
-            <img class="products__image" src="img/viking.svg" alt="Viking" />
-            <h3 class="products__name products__name--viking">Viking</h3>
-            <p class="products__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fuga autem
-                possimus eveniet facere, non minus magnam obcaecati, tenetur recusandae, corporis itaque suscipit. Вero
-                illo nulla asperiores laudantium tempore porro!
-            </p>
-            <div class="products__actions">
-                <button class="products__button products__button--info button button-card">
-                    Info
-                </button>
-                <button class="products__button products__button--buy button button-card">
-                    Buy
-                </button>
+        <article class="products__item col">
+            <div class="card h-100">
+                <img class="products__image card-img-top p-3" src="img/viking.svg" alt="Viking" />
+                <div class="card-body d-flex flex-column">
+                    <h3 class="products__name products__name--viking card-title h5">Viking</h3>
+                    <p class="products__description card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro fuga autem
+                        possimus eveniet facere, non minus magnam obcaecati, tenetur recusandae, corporis itaque suscipit. Vero
+                        illo nulla asperiores laudantium tempore porro!
+                    </p>
+                    <div class="products__actions mt-auto d-flex gap-2">
+                        <button class="products__button products__button--info button button-card btn btn-outline-primary">
+                            Info
+                        </button>
+                        <button class="products__button products__button--buy button button-card btn btn-primary">
+                            Buy
+                        </button>
+                    </div>
+                </div>
             </div>
         </article>
     </div>

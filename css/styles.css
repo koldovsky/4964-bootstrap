@@ -1,0 +1,9 @@
+.bg-body-tertiary {
+    background-color: red !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) saturate(100%) invert(14%) sepia(98%) saturate(7471%) hue-rotate(2deg) brightness(99%) contrast(118%);
+}
+
